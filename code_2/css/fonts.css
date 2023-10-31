@@ -1,0 +1,44 @@
+/* montserrat */
+@font-face{
+    font-family: 'montserrat';
+    src: url(../fonts/montserrat/Montserrat-Regular.ttf) format('truetype');
+    font-weight: 400;
+}
+@font-face{
+    font-family: 'montserrat';
+    src: url(../fonts/montserrat/Montserrat-Regular.ttf) format('truetype');
+    font-weight: 700;
+}
+/* comforta */
+@font-face{
+    font-family: 'comfortaa';
+    src: url(../fonts/Comfortaa/Comfortaa-Regular.ttf) format('truetype');
+    font-weight: 400;
+}
+@font-face{
+    font-family: 'comfortaa';
+    src: url(../fonts/Comfortaa/Comfortaa-Regular.ttf) format('truetype');
+    font-weight: 700;
+}
+/* roboto */
+@font-face{
+    font-family: 'roboto';
+    src: url(../fonts/Roboto/Roboto-Regular.ttf) format('truetype');
+    font-weight: 400;
+}
+@font-face{
+    font-family: 'roboto';
+    src: url(../fonts/Roboto/Roboto-Medium.ttf) format('truetype');
+    font-weight: 500;
+}
+/* icons */
+@font-face{
+    font-family: 'icons';
+    src: url(../icons/fa-duotone-900.ttf) format('truetype');
+    font-weight: 900;
+}
+@font-face{
+    font-family: 'icons';
+    src: url(../icons/fa-light-300.ttf) format('truetype');
+    font-weight:300;
+}
