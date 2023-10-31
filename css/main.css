@@ -221,14 +221,15 @@
 
   .header{
     width: 100%;
-    height: 1000px;
+    height: 740px;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: -2;
-    background: url(../img/bg-header.jpg);
-    background-attachment: fixed;
+    overflow: hidden;
+    /* background: url(../img/bg-header.jpg);
+    background-attachment: fixed; */
   }
   
   /* .header img{
@@ -903,14 +904,16 @@
     .collections-items{grid-template-columns: 100%;}
     .collections-card:last-of-type{grid-column: unset;}
     .serials-card:nth-of-type(12n + 2){grid-column: span 4; grid-row: span 2;}
-    /* .serials-card:nth-of-type(3){grid-column: span 2;}
+    .serials-card:nth-of-type(3){grid-column: span 2;}
     .serials-card:nth-of-type(4){grid-column: span 2;}
     .serials-card:nth-of-type(5){grid-column: span 2;}
-    .serials-card:nth-of-type(6){grid-column: span 2;} */
-    .serials-card_text p{-webkit-line-clamp: 2; display: -webkit-inline-box; -webkit-box-orient: vertical;}
-
+    .serials-card:nth-of-type(6){grid-column: span 2;}
+    .serials-card_text p{display: none;}
+    .serials-card_text_2:hover p{display: none;}
+    
   }
   @media (max-width: 480px) {
+    .films-items{grid-template-columns: repeat(2, 1fr); display: grid;}
     .films-card{width: 100%;}
     .header-content{flex-direction: column;}
     .header-btn{flex-direction: column;row-gap: 15px;}
